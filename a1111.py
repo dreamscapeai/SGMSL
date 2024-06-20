@@ -10,7 +10,7 @@ for path in tmp:
     Path(path).mkdir(parents=True, exist_ok=True)
 
 def launch():
-    os.system(f'python launch.py {" ".join(sys.argv[1:])} &'
+    os.system(f'python ~/stable-diffusion-webui/launch.py {" ".join(sys.argv[1:])} &'
               f'ssh -o StrictHostKeyChecking=no -p 80 -R0:localhost:7860 a.pinggy.io > log.txt')
 
 def pinggy():
