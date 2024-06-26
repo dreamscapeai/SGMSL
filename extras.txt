@@ -1,0 +1,4 @@
+#model
+https://huggingface.co/WarriorMama777/OrangeMixs/resolve/main/Models/AbyssOrangeMix3/AOM3_orangemixs.safetensors
+##RVHyper.safetensors
+https://civitai.com/api/download/models/501240
